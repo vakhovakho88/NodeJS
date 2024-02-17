@@ -140,4 +140,86 @@ A: The course projects simulate real-world applications, providing a solid found
 - [Sequelize Documentation](https://sequelize.org/)
 - [Mongoose Documentation](https://mongoosejs.com/)
 
-This Git reference documentation encapsulates the essential components and learning strategies of a comprehensive Node.js course, providing learners with a roadmap to mastering Node.js and related technologies for web development.
+
+# Git Documentation: Node.js Course Study Guide
+
+## Introduction
+
+This Git documentation serves as a comprehensive study guide, based on the provided video course transcripts. It is designed to enhance your understanding and practical application of Node.js by offering a structured approach to learning, with clear explanations, code examples, and additional resources. Let's embark on this learning journey together, ensuring that you can effectively utilize the attached source code to bolster your Node.js skills.
+
+## Table of Contents
+
+1. [Using the Attached Source Code](#using-the-attached-source-code)
+2. [Before Using npm](#before-using-npm)
+3. [After Using npm](#after-using-npm)
+4. [Common Questions and Answers](#common-questions-and-answers)
+5. [Additional Resources](#additional-resources)
+
+---
+
+## Using the Attached Source Code
+
+Throughout the Node.js course, you'll be writing a lot of code. To facilitate your learning and troubleshooting process, we provide multiple code snapshots per module. These snapshots are attached to different lectures within the course, allowing you to compare your work with the instructor's code. This can be incredibly helpful for identifying and fixing potential errors in your code.
+
+### Key Concepts
+
+- **Code Snapshots**: Sets of code provided per module for comparison and error fixing.
+- **Module Chronology**: The last lecture of each module contains all snapshots for that module, organized chronologically.
+
+### How to Use the Attached Code
+
+#### Before Using npm
+
+- **Running the Main .js File**: Before the introduction of npm into the course, you can run the main JavaScript file directly using Node.js. This is achieved by executing the command `node <filename>.js` in your terminal, mirroring the approach shown in the videos.
+- **Code Comparison**: You can also open the code files to view and compare the code directly, aiding in understanding and debugging.
+
+#### After Using npm
+
+- **Installing Dependencies**: Once npm is introduced in the course, you need to run `npm install` within the extracted code directory. This command installs all the necessary dependencies defined in the `package.json` file.
+- **Running the Server**: To start the server, execute `npm start`. This command typically runs a predefined script in the `package.json` that starts your Node.js application.
+
+### Examples
+
+**Example 1: Running a Node.js File (Before npm)**
+
+```bash
+# Navigate to the directory containing your main.js file
+cd path/to/your/project
+
+# Run the main.js file
+node main.js
+```
+
+**Example 2: Using npm to Start Your Server (After npm)**
+
+```bash
+# Navigate to the directory containing your project
+cd path/to/your/npm/project
+
+# Install dependencies
+npm install
+
+# Start the server
+npm start
+```
+
+### Additional Notes
+
+- Ensure you understand the difference in approach before and after the introduction of npm. This will help you effectively manage and troubleshoot your projects.
+
+## Common Questions and Answers
+
+**Q: What should I do if my code doesn't work after following the video?**
+A: Compare your code with the provided snapshots to identify discrepancies. Ensure you've correctly followed the steps for your scenario (before or after npm).
+
+**Q: How do I troubleshoot npm install errors?**
+A: Check your internet connection, ensure you're in the correct directory, and verify that your `package.json` is correctly formatted. If issues persist, refer to the npm documentation or seek help on Stack Overflow.
+
+## Additional Resources
+
+- [Node.js Official Documentation](https://nodejs.org/en/docs/)
+- [npm Documentation](https://docs.npmjs.com/)
+- [Stack Overflow](https://stackoverflow.com/) - A great platform for getting help with specific errors or problems.
+- [GitHub](https://github.com/) - Explore open-source projects and code examples to enhance your understanding of Node.js.
+
+This Git documentation aims to be a dynamic and evolving resource. As you progress through the course, feel free to add notes, examples, and any additional resources you find beneficial to your learning journey.
